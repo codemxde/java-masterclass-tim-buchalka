@@ -6,7 +6,15 @@ public class Main {
 
     public static void main(String[] args) {
         Car car = new Car();
+
+        // Lecture 79 setter methods
+        car.setMake("Porsche");
+        car.setMake("Maserati");
+        car.setModel("Carrera");
+        car.setDoors(2);
+        car.setConvertible(true);
+        car.setColor("Black");
+
         car.describeCar();
-        System.out.println(car.getMake() + " " + car.returnMake());
     }
 }
